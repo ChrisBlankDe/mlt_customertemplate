@@ -1,0 +1,13 @@
+{
+    "$schema":  "https://raw.githubusercontent.com/ChrisBlankDe/AL-Go/chrisblankde-n-level-template-inheritance/Actions/.Modules/settings.schema.json",
+    "country":  "us",
+    "appFolders":  [
+
+                   ],
+    "testFolders":  [
+
+                    ],
+    "bcptTestFolders":  [
+
+                        ]
+}
