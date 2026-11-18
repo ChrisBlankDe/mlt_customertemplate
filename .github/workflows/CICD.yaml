@@ -427,10 +427,19 @@ jobs:
           telemetryScopeJson: ${{ needs.Initialization.outputs.telemetryScopeJson }}
           currentJobContext: ${{ toJson(job) }}
 
+  # DO NOT EDIT. The following job was added through a custom template.
+  CustomJob-Partner-Initialization:
+    name: 'Initialize Partner'
+    needs: [Initialization]
+    runs-on: [ windows-latest ]
+    steps:
+      - name: SayHelloPartner
+        run: Write-Host "Hello from your Partner"
+
   CustomJob-Customer-Initialization:
     name: 'Initialize Customer'
     needs: [Initialization]
     runs-on: [ windows-latest ]
-    steps: 
+    steps:
       - name: SayHelloCustomer
         run: Write-Host "Hello from your Customer"
