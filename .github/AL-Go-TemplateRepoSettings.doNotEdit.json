@@ -1,4 +1,6 @@
 {
     "$schema":  "https://raw.githubusercontent.com/ChrisBlankDe/AL-Go/chrisblankde-n-level-template-inheritance/Actions/.Modules/settings.schema.json",
-    "type":  "PTE"
+    "type":  "PTE",
+    "useCompilerFolder":  true,
+    "doNotPublishApps":  true
 }
